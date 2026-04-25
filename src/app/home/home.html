@@ -1,0 +1,8 @@
+<form [formGroup]="form1" (ngSubmit)="submitBtn()">
+  <input formControlName="name" placeholder="შეიყვანეთ თქვენი სახელი">
+  <input formControlName="email" placeholder="შეიყვანეთ თქვენი ელფოსტა">
+  <input formControlName="password" type="password" placeholder="შეიყვანეთ თქვენი პაროლი">
+  <input formControlName="phone" placeholder="შეიყვანეთ თქვენი ტელეფონი">
+  <input formControlName="address" placeholder="შეიყვანეთ თქვენი მისამართი">
+  <button type="submit">Submit</button>
+</form>
